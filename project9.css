@@ -1,0 +1,234 @@
+body {
+    background-color: #d4def4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 50%;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+
+.btn {
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    letter-spacing: 0.3px;
+    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+    border: none;
+}
+
+.card {
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cardb {
+    width: 60%;
+    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+    border: 1px solid #587ef4;
+    border-radius: 5px;
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    margin: 5px;
+    padding: 0px;
+    color: rgb(22, 19, 19);
+    display: flex;
+    height: 50%;
+    color: white;
+    /* flex-direction: column; */
+
+}
+
+.data {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 50%;
+    color: white;
+    /* flex-direction: column; */
+
+}
+
+
+
+#head1 {
+    margin-left: 15px
+}
+
+#head2 {
+    margin-left: 150px;
+}
+
+#head3 {
+    margin-left: 190px;
+}
+
+#data1 {
+    margin-left: 30px;
+}
+
+#data2 {
+    margin-left: 230px;
+}
+
+#data3 {
+    margin-left: 240px;
+}
+
+.list {
+    display: flex;
+    width: 60%;
+    background-color: white;
+    flex-direction: column;
+    margin: 35px;
+    padding: 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.mainlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.new {
+    display: flex;
+}
+
+.grocery {
+    border-left: 5px solid #587ef4;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.img {
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+#edit {
+    margin-left: 200px;
+}
+
+.value {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box {
+        display: flex;
+        justify-content: baseline;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 74%;
+        height: 200px;
+    }
+
+    .heading {
+        margin: 5px;
+        padding: 0px;
+        color: rgb(22, 19, 19);
+        display: flex;
+        height: 50%;
+    }
+
+    .grocery {
+        border-left: 5px solid #587ef4;
+        margin-left: 10px;
+        padding: 15px;
+    }
+
+    .input {
+        width: 70%;
+        height: 25px;
+        border: 2px solid gray;
+        border-radius: 2px;
+    }
+
+    .cardb {
+        width: 90%;
+    }
+
+    #head1 {
+        margin-left: 5px
+    }
+
+    #head2 {
+        margin-left: 50px;
+    }
+
+    #head3 {
+        margin-left: 50px;
+    }
+
+    #data1 {
+        margin-left: 10px;
+    }
+
+    #data2 {
+        margin-left: 80px;
+    }
+
+    #data3 {
+        margin-left: 80px;
+    }
+
+    .img {
+        margin-left: 10px;
+        margin-top: 28px;
+    }
+
+    #edit {
+        margin-left: 50px;
+    }
+
+    .value {
+        margin-top: 30px;
+        margin-left: 90px;
+    }
+
+
+    .list {
+        display: flex;
+        width: 90%;
+    }
+}

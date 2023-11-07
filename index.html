@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Expancer</title>
+    <link rel="stylesheet" href="project9.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="card1">
+        <label for="budget" class="label"><h3>Budget</h3></label>
+        <input
+          type="number"
+          class="input"
+          id="amount"
+          placeholder="Enter Total Amount"
+        />
+        <br />
+        <br />
+        <button class="btn" id="budget" onclick="budget()">Set Budget</button>
+      </div>
+      <div class="card" id="card2">
+        <label for="expance" class="label">
+          <h3>Expenses</h3>
+        </label>
+        <input
+          type="text"
+          id="title"
+          placeholder="Enter Title of Product"
+          class="input"
+        />
+        <br />
+        <br />
+        <input
+          type="number"
+          name=""
+          placeholder="Enter Cost of Product"
+          id="cost"
+          class="input"
+        />
+        <br />
+        <br />
+        <button class="btn" onclick="amount()" id="amount">Check Amount</button>
+      </div>
+    </div>
+    <div class="box">
+      <div class="cardb" id="card3">
+        <div class="heading">
+          <h3 id="head1">Total Budget</h3>
+          <h3 id="head2">Expenses</h3>
+          <h3 id="head3">Balance</h3>
+        </div>
+
+        <div class="data">
+          <h3 id="data1"></h3>
+          <h3 id="data2"></h3>
+          <h3 id="data3"></h3>
+        </div>
+      </div>
+      <div class="list" id="card4">
+        <h3>&nbsp;&nbsp;&nbsp;Expense List</h3>
+        <div class="mainlist" id="mainlist">
+          <!--
+          <h4 class="grocery"> Grocery</h5>
+            <h3 class="value">0</h3>
+          <img
+            src="/edit.jpeg"
+            alt="edit"
+            class="img"
+            id="edit"
+            width="25px"
+            height="25px"
+            style="text-decoration: none"
+            ;
+          />
+          <img
+            src="/dlt.jpeg"
+            alt="dlt"
+            class="img"
+            id="dlt"
+            width="20px"
+            height="20px"
+          />-->
+        </div>
+      </div>
+    </div>
+    <script src="project9.js"></script>
+  </body>
+</html>
